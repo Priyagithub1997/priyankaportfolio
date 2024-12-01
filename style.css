@@ -1,0 +1,170 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   background-color: mediumvioletred;
+   box-shadow:5px 5px  10px pink;
+   padding: 20px;
+
+}
+
+.box1 {
+    height: 400px;
+    width: 80px;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow:5px 5px 10px  pink;
+
+}
+
+
+.imgdiv img{
+    border-radius: 50%;
+    box-shadow:5px 5px 10px pink;
+}
+
+
+.box2 {
+    height: 550px;
+    width: 400px;
+   
+    background-color: white;
+}
+
+.box3 {
+    height: 550px;
+    width: 1000px;
+
+    box-shadow:5px 5px 10px  pink;
+    background-color: white;
+    overflow-y:scroll;
+        scroll-behavior:smooth;
+    padding-left: 60px;
+
+
+}
+
+.section {
+    width: 900px;
+    height: 550px;
+       border-left: 2px dashed mediumvioletred;
+    border-right: 2px dashed mediumvioletred;
+
+}
+
+ul{
+    padding:10px;
+}
+
+ul >li {
+    list-style: none;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#about{
+    text-align: center;
+   
+   
+}
+
+
+
+.center{
+   margin-top: 100px;
+   text-align: center;
+}
+
+.skillslist{
+  margin-top: 40px;
+   display: grid;
+ grid-template-columns: 2fr 2fr ; 
+
+
+}
+.skillslist li{
+  text-align: center;
+  border: 2px solid black;
+  margin: 30px;
+  border-radius: 20px;
+  background-color:mediumvioletred;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+ 
+  
+}
+
+
+@media only screen and (max-width:600px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+       
+       background-color: mediumvioletred;
+       box-shadow:5px 5px  10px pink;
+       padding: 20px;
+       
+        
+       
+   
+    }
+
+    .box1 {
+        height: 80px;
+        width: 330px;
+        border: 2px solid black;
+        background-color: white;
+        box-shadow:5px 5px 10px  pink;
+        position:sticky;
+        
+    
+    }
+    .box3 {
+        width: 300px;
+        height: 550px;
+        
+     
+        box-shadow:5px 5px 10px  pink;
+        background-color: white;
+        overflow-y:scroll;
+            scroll-behavior:smooth;
+        padding-left: 30px;
+    
+    
+     }
+     .section {
+        width: 300px;
+        height: 550px;
+           border-left: 2px dashed mediumvioletred;
+        border-right: 2px dashed mediumvioletred;
+        padding: 30px;
+    
+    }
+
+   
+
+    
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  
+}
+
+ul >li {
+    list-style: none;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.skillslist li{
+ 
+    padding: 10px;
+  }
+    
+}
